@@ -1,34 +1,69 @@
+body {
+	background-color:slategray;
+	font-family:'Roboto', 'sans-serif';
+}
+div {
+	box-sizing: border-box;
+}
 #container {
+	background-color:lightblue;
 	position:relative;
 	width:800px;
+	margin:50px auto;
+	padding:20px;
+	border-radius:20px;
+	border:5px solid dodgerblue;
+}
+
+button {
+	font-family:'Roboto', 'sans-serif';
+	padding:10px;
+	border:2px solid dodgerblue;
+	border-radius:10px;
+	color:white;
+	background-color:slategray;
 }
 
 #add-contacts, #contacts-sidebar {
 	display:inline-block;
-
 }
 
 #add-contacts label {
 	display:block;
 }
 
+input {
+	width:200px;
+	margin-bottom:15px;
+}
+
+label {
+	margin-bottom:5px;
+}
+
+h2, h1 {
+	line-height:1.5em;
+	font-family:'Raleway', 'sans-serif';
+}
+
 #add-contacts {
-	/*background-color:blue; */
-	width:500px;
+	width:400px;
 }
 
 #contacts-sidebar {
-	/*background-color:yellow; */
 	position:absolute;
 	right:0px;
-	width:300px;
+	width:350px;
 }
 
 #contacts-sidebar ul {
 	list-style:none;
 }
 
+#contacts-sidebar li {
+	margin-bottom:10px
+}
+
 #contacts-list {
-	/*background-color:red;*/
 	width:500px;
 }
