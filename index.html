@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contacts App</title>
+    <meta name="description" content="Keep track of who you know!">
+    <meta name="author" content="Sofia and Row" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link href="https://necolas.github.io/normalize.css/4.1.1/normalize.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="container">
+	<h1>Contacts</h1>
+	<div id="add-contacts">
+		<h2>Add a contact:</h2>
+		<form>
+		  <div class="form-group">
+		    <label for="input-firstname">First name</label>
+		    <input type="text" class="form-control" id="input-firstname">
+		  </div>
+
+		  <div class="form-group">
+		    <label for="input-lastname">Last name</label>
+		    <input type="text" class="form-control" id="input-lastname">
+		  </div>
+
+		  <div class="form-group">
+		    <label for="input-phone">Phone number</label>
+		    <input type="text" class="form-control" id="input-phone">
+		  </div>
+
+		  <div class="form-group">
+		    <label for="input-street">Street</label>
+		    <input type="text" class="form-control" id="input-street">
+		  </div>
+
+		  <div class="form-group">
+		    <label for="input-city">City</label>
+		    <input type="text" class="form-control" id="input-city">
+		  </div>
+
+		  <div class="form-group">
+		    <label for="input-state">State</label>
+		    <input type="text" class="form-control" id="input-state">
+		  </div>
+
+		  
+		  <button type="submit" id="contact-submit">Submit</button>
+		</form>
+	</div> 
+
+	<div id="contacts-sidebar">
+		<h2 id="sidebar-fullname"></h2>
+		<ul>
+			<li id="sidebar-firstname"></li>
+		</ul>
+	</div>
+
+	<div id="contacts-list">
+		<h2>Contacts:</h2>
+		<ul id="contacts-ul">
+			
+		</ul>
+	</div>
+
+
+	</div>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

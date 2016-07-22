@@ -1,0 +1,34 @@
+#container {
+	position:relative;
+	width:800px;
+}
+
+#add-contacts, #contacts-sidebar {
+	display:inline-block;
+
+}
+
+#add-contacts label {
+	display:block;
+}
+
+#add-contacts {
+	//background-color:blue;
+	width:500px;
+}
+
+#contacts-sidebar {
+	//background-color:yellow;
+	position:absolute;
+	right:0px;
+	width:300px;
+}
+
+#contacts-sidebar ul {
+	list-style:none;
+}
+
+#contacts-list {
+	//background-color:red;
+	width:500px;
+}
