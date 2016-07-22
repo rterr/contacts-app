@@ -13,12 +13,12 @@
 }
 
 #add-contacts {
-	//background-color:blue;
+	/*background-color:blue; */
 	width:500px;
 }
 
 #contacts-sidebar {
-	//background-color:yellow;
+	/*background-color:yellow; */
 	position:absolute;
 	right:0px;
 	width:300px;
@@ -29,6 +29,6 @@
 }
 
 #contacts-list {
-	//background-color:red;
+	/*background-color:red;*/
 	width:500px;
 }
